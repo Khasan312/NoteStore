@@ -34,3 +34,9 @@ BOB = moneyed.add_currency(
 
 CURRENCIES = ('USD', 'SOM')
 CURRENCY_CHOICES = [('USD', 'USD $'), ('SOM', 'SOM €')]
+
+
+CORS_ALLOWED_ORIGINS  =  [ 
+    "http://localhost:8000" , 
+    
+]
